@@ -1,2 +1,1 @@
-# Arbolesbinariosygrafos
-aqui estarán las actividades realizadas en la clase 5 (14/16/25)
+La clase principal tiene de nombre ArbolesBinariosyGrafos, la clase menuprincipal como lo indica ejecuta los diferentes proyectos que hicimos durante la clase sgún se indica en el menú, el programa cuenta con manejo de errores leves.
