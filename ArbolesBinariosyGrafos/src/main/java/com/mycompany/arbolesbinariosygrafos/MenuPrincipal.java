@@ -18,9 +18,8 @@ public class MenuPrincipal {
         
         do {
             
-            System.out.println("\n__¿Qué deseas hacer hoy?__");
-            System.out.println("1 para mirar los estantes fijos");
-            System.out.println("2 para mirar todo acerca de los libros nuevos");
+            System.out.println("\n__Aquí estan las actividades de hoy__");
+            System.out.println("Hola putitos");
             System.out.println("3 para salir");
 
             try {
