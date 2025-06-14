@@ -16,22 +16,26 @@ public class MenuPrincipal {
         Scanner entrada = new Scanner(System.in);
         int opcion;
         
+        
         do {
             
-            System.out.println("\n__¿Qué deseas hacer hoy?__");
-            System.out.println("1 para mirar los estantes fijos");
-            System.out.println("2 para mirar todo acerca de los libros nuevos");
+            System.out.println("\n__Aquí estan las actividades de hoy__");
+            System.out.println("1.- Para ver lo relacionado al Arbol binario");
             System.out.println("3 para salir");
 
             try {
                 opcion = entrada.nextInt();
                 switch (opcion) {
                     case 1:
-   
+                        App app1 = new App();
+                        app1.ciclofor();
                         break;  
                     case 2:
-    
                         break;
+                    case 3:
+                        System.out.println("Hasta luego");
+                        break;
+                          
                     default:
                         System.out.println("Opción no válida.");
                 }
