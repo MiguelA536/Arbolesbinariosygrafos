@@ -21,6 +21,7 @@ public class MenuPrincipal {
             
             System.out.println("\n__Aquí estan las actividades de hoy__");
             System.out.println("1.- Para ver lo relacionado al Arbol binario");
+            System.out.println("2.- Para ver el programa relacionado al grafo");
             System.out.println("3 para salir");
 
             try {
@@ -28,9 +29,11 @@ public class MenuPrincipal {
                 switch (opcion) {
                     case 1:
                         App app1 = new App();
-                        app1.ciclofor();
+                        app1.ejecutar1();
                         break;  
                     case 2:
+                        App2 app2 = new App2();
+                        app2.ejecutar2();
                         break;
                     case 3:
                         System.out.println("Hasta luego");

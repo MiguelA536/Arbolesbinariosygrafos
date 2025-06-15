@@ -15,7 +15,7 @@ public class App {
     ArbolBinarioClase ab1 = new ArbolBinarioClase();
     Scanner entrada = new Scanner(System.in);
 
-    public void ciclofor() {
+    public void ejecutar1() {
         System.out.println("Árbol Binario: insertar 7 valores (ej. 50 30 40 50 60 70)");
 
         for (int i = 0; i < 7; i++) {
